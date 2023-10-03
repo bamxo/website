@@ -602,8 +602,8 @@ remove the nav lines*/
 }
 
 .job-responsibilities p {
-    color: #111;
-    width: 95%;
+    color: black;
+    width: 100%;
     font-weight: 500;
     font-size: 14pt;
     margin: 0px;
