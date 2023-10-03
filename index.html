@@ -12,6 +12,8 @@
         <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
 
         <link rel="stylesheet" href="style.css">
+
+        <!-- <link rel="stylesheet" href="experience-style.css"> -->
     
     
     </head>
@@ -26,9 +28,10 @@
             <nav class="nav">
                 <ul class="nav__list">
                     <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">What I Do</a></li>
                     <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
                     <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
                 </ul>
             </nav>
         </header>
@@ -81,13 +84,14 @@
 
         <!-- projects -->
         <section class="my-work" id="projects">
-            <h2 class="section__title">Projects</h2>
+            <h2 class="project__title">Projects</h2>
             <p class="section__subtitle"></p>
 
             <div class="portfolio">
                 <a href="soda-item.html" class="portfolio__item">
                     <img src="img/sodacanprev.png" alt="sarah's sparkle" class="portfolio__img">
                 </a>
+            
 
             <div class="portfolio">
                 <a href="wildin-item.html" class="portfolio__item">
@@ -96,11 +100,64 @@
             </div>
         </section>
 
+        <!-- experience -->
+        <section class="work-experience left-fade" id="experience">
+            <h2 class="section__title">Experience</h2>
+
+            <div class="section-heading">
+                <div class="first section-line"></div>
+                <h3 class="section-text-name">Work</h3>
+                <div class="second section-line"></div>
+            </div>
+
+            <div class="work-container">
+                <a href="https://www.formulaslug.com/" target="_blank">
+                    <img src="img/link_icon.svg" class="link-icon">
+                </a>
+                <img src="img/FS-01-high-resolution.png" class="company-logo" id="zip-logo">
+                <div class="logo-description-dividing-line" style="height: 242px;"></div>
+                <div class="description-section">
+                    <h4>Systems Engineer</h4>
+                    <h5>Formula Slug - Low Voltage</h5>
+                    <h6>Oct. 2023 - Present</h6>
+                    <div class="job-responsibilities">
+                        <p>
+                            Playing a pivotal role in the design and construction of Printed Circuit Boards (PCBs) for the low-voltage subsystem of the SAE Electric 
+                            vehicle, also employing KiCad for schematic and layout design. Additionally, I will be writing in C++, as I program microcontrollers and 
+                            manage the processing of Controller Area Network (CAN) data. My involvement extends to the comprehensive design, construction, and development 
+                            of a cutting-edge formula race car, meticulously crafted for competitive racing against fellow university teams. This initiative allowed students 
+                            to showcase their engineering prowess through the creation and racing of electric vehicles, fostering spirited intercollegiate competition.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="work-container right-fade">
+                <img src="img/blank logo.png" class="company-logo" id="zip-logo">
+                <div class="logo-description-dividing-line" style="height: 242px;"></div>
+                <div class="description-section">
+                    <h4>Software Engineering Intern</h4>
+                    <h5>Mettatonic - Full Stack Developer</h5>
+                    <h6>July 2023 - Sep. 2023</h6>
+                    <div class="job-responsibilities">
+                        <p>
+                            Successfully launched of two customized corporate websites, tailored to meet the company's unique specifications. My responsibilities 
+                            extended to ensure that both websites were SEO Compliant, leading to notable improvements in search engine rankings. Leveraging Content 
+                            Management Systems (CMS), I bolstered project organization and expedited development processes. Additionally, I fostered enhanced user 
+                            engagement and streamlined communication channels by implementing a user-friendly 'Contact Us' form, seamlessly integrated with Mail SMTP 
+                            for efficient correspondence.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
 
         <!-- footer -->
         <footer class="footer">
             <!-- replace with your own email address -->
-            <a href="malito:landontqnguyen@gmail.com" class="footer-link"><strong>Contacts</strong></a>
+            <a href="mailto:landontqnguyen@gmail.com" class="footer-link"><strong>Contacts</strong></a>
             <ul class="social-list">
                 <li class="social-list__item">
                     <a class="social-list__link" href="https://discord.com/">
@@ -115,7 +172,7 @@
                 </li>
 
                 <li class="social-list__item">
-                    <a class="social-list__link" href="mailto: landontqnguyen@gmail.com">
+                    <a class="social-list__link" href="mailto:landontqnguyen@gmail.com">
                         <i class="fa-brands fa-google"></i>
                     </a>
                 </li>
