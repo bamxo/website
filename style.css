@@ -286,6 +286,13 @@ header {
         /*z-index: 2;*/
     }
 
+    .mainintro__img {
+        grid-area: img;
+        min-width: 250px;
+        position: relative
+        /*z-index: 2;*/
+    }
+
     .section__subtitle--intro {
         align-self: start;
         grid-column: -1 / 1;
@@ -800,6 +807,6 @@ remove the nav lines*/
     margin-right: auto;
 }
 
-.intro img {
+.intro__img {
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2) !important;
 }
